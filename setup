@@ -1,3 +1,6 @@
 curl https://raw.githubusercontent.com/21stio/aliases/master/aliases > ~/.aliases
 
-echo "source ~/.aliases" >> ~/.bashrc
+if grep -q "source ~/.aliases" ~/.bashrc; then
+else	
+	echo "source ~/.aliases" >> ~/.bashrc
+fi
