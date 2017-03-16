@@ -4,3 +4,5 @@ if grep -q "source ~/.aliases" ~/.bashrc; then
 else	
 	echo "source ~/.aliases" >> ~/.bashrc
 fi
+
+source ~/.aliases
