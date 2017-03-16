@@ -1,3 +1,4 @@
 alias kgp="kubectl get pod"
 alias kgs="kubectl get svc"
+alias kd="kubectl describe"
 alias update-aliases="curl https://cdn.rawgit.com/21stio/aliases/master/setup | bash"
