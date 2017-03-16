@@ -1,0 +1,3 @@
+curl https://raw.githubusercontent.com/21stio/aliases/master/aliases > ~/.aliases
+
+echo "source ~/.aliases" >> ~/.bashrc
