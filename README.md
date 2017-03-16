@@ -1,1 +1,1 @@
-curl https://raw.githubusercontent.com/21stio/aliases/master/setup | sh
+`curl https://raw.githubusercontent.com/21stio/aliases/master/setup | sh`
